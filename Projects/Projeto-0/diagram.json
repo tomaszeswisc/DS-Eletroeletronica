@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "author": "Hilton Elias",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 87, "left": 124.2, "attrs": {} },
+    { "type": "wokwi-led", "id": "led1", "top": 6, "left": 13.4, "attrs": { "color": "red" } },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 13.55,
+      "left": 144,
+      "attrs": { "value": "220" }
+    }
+  ],
+  "connections": [
+    [ "uno:13", "led1:A", "gold", [ "v-48", "h0.4" ] ],
+    [ "led1:C", "uno:GND.1", "black", [ "v19.2", "h182.8", "v0", "h19.2" ] ]
+  ],
+  "dependencies": {}
+}

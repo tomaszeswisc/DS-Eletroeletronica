@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "author": "Hilton Elias",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-potentiometer",
+      "id": "pot1",
+      "top": 85.1,
+      "left": 335.8,
+      "attrs": { "value": "0" }
+    }
+  ],
+  "connections": [
+    [ "pot1:VCC", "uno:5V", "red", [ "v86.4", "h-224.8" ] ],
+    [ "pot1:GND", "uno:GND.2", "black", [ "v76.8", "h-195.3" ] ],
+    [ "pot1:SIG", "uno:A0", "gold", [ "v57.6", "h-166.8" ] ]
+  ],
+  "dependencies": {}
+}

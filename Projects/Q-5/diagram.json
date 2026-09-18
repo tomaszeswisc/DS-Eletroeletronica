@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "author": "Hilton Elias",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr1",
+      "top": 233.6,
+      "left": -114.4,
+      "attrs": { "lux": "400" }
+    }
+  ],
+  "connections": [
+    [ "ldr1:VCC", "uno:5V", "red", [] ],
+    [ "ldr1:GND", "uno:GND.2", "black", [] ],
+    [ "ldr1:AO", "uno:A0", "gold", [ "v-0.7", "h150.4" ] ]
+  ],
+  "dependencies": {}
+}
