@@ -29,6 +29,7 @@ void setup() {
 }
 
 void loop() {
+
   // Verificar se o botao foi pressionado
   if (digitalRead(PUSH) == LOW){
 
@@ -36,32 +37,46 @@ void loop() {
     //caso sim o proximo toque reinicia
     if(contador >= 10){
       contador = 0;
-    }
-
-    //Atingiu 10 apaga todos os Leds
-    for(int i = 0; i < QTD_LEDS; i++){
-      digitalWrite(leds[i], LOW);
-    }
-
-    Serial.println("Contagem = 0");
     
-  } 
-  
-  // Caso nao tenha chegado a 10 contador soma 1.
-  else {
-    
-    contador++;
-    Serial.print("Contagem = ");
-    Serial.println(contador);
 
-    for(int i = 0; i < QTD_LEDS; i++){
-      if (i < contador){
-        digitalWrite(leds[i], HIGH);
-      }else{
+      //Atingiu 10 apaga todos os Leds
+      for(int i = 0; i < QTD_LEDS; i++){
         digitalWrite(leds[i], LOW);
       }
-    }
 
-  }
- delay(1000);
+      Serial.println("Contagem = 0");
+    
+    } 
+  
+    // Caso nao tenha chegado a 10 contador soma 1.
+    else {
+      
+      contador++;
+      Serial.print("Contagem = ");
+      Serial.println(contador);
+
+      //Acender com a contagem
+      for(int i = 0; i < QTD_LEDS; i++){
+        if (i < contador){
+          digitalWrite(leds[i], HIGH);
+        }else{
+          digitalWrite(leds[i], LOW);
+        }
+      }
+    }
+    
+    //Tocar Buzze qnt de toque no contador 
+    // contador em 3 => 3 bips
+    for (int i = 0; i < contador; i++){
+      tone(BUZZER, 1000);
+      delay(100);
+      noTone(BUZZER);
+      delay(150);
+    }
+    
+
+    delay(500);// delay na leitura do botao
+    // Evitamos varias leituras
+
+  }//Fechamento do if do Botao
 }
