@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "author": "Hilton Elias",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-servo",
+      "id": "servo1",
+      "top": -130,
+      "left": 300,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    ["servo1:PWM", "uno:5", "orange", []],
+    ["servo1:V+", "uno:5V", "red", []],
+    ["servo1:GND", "uno:GND.1", "black", []]
+  ],
+  "dependencies": {}
+}
