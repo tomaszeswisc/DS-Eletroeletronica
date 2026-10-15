@@ -37,4 +37,10 @@ Analisar as ligações e o comportamento programado deste experimento com Arduin
 
 **Atividade:** explique o papel de cada componente e o funcionamento do `setup()` e do `loop()`.
 
+## Captura do circuito no Wokwi
+
+![Diagrama de Projeto-1A no editor Wokwi; simulação parada](../../assets/wokwi/Projeto-1A.jpg)
+
+Captura autêntica do editor web a partir do diagrama original. **Simulação não executada nesta captura.** [Origem e versão dos diagramas](../../docs/GUIA_IMAGENS.md).
+
 [← Voltar ao catálogo](../../README.md)

@@ -30,4 +30,10 @@ Consulte o arquivo `diagram.json` para identificar pinos e conexões. O diagrama
 
 > **Estado de validação:** documentação baseada nos arquivos presentes no GitHub. Compilação, simulação e teste em placa física ainda não foram confirmados.
 
+## Captura do circuito no Wokwi
+
+![Diagrama de Projeto-2 no editor Wokwi; simulação parada](../../assets/wokwi/Projeto-2.jpg)
+
+Captura autêntica do editor web a partir do diagrama original. **Simulação não executada nesta captura.** [Origem e versão dos diagramas](../../docs/GUIA_IMAGENS.md).
+
 [← Catálogo completo](../../README.md)

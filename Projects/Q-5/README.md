@@ -38,4 +38,10 @@ Desenhe um esquema simplificado das ligações principais, descreva a função d
 
 **Status:** documentação baseada no repositório; testes físicos ou virtuais pendentes.
 
+## Captura do circuito no Wokwi
+
+![Diagrama de Q-5 no editor Wokwi; simulação parada](../../assets/wokwi/Q-5.jpg)
+
+Captura autêntica do editor web a partir do diagrama original. **Simulação não executada nesta captura.** [Origem e versão dos diagramas](../../docs/GUIA_IMAGENS.md).
+
 [← Voltar ao catálogo](../../README.md)
