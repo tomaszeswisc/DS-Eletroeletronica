@@ -156,6 +156,10 @@ DS-Eletroeletronica/
     └── ...                   # Demais experimentos
 ```
 
+## 🖼️ Imagens reais dos circuitos
+
+Os 14 guias individuais estão disponíveis. Para adicionar imagens autênticas do Wokwi, consulte o [guia de capturas e publicação](docs/GUIA_IMAGENS.md). As capturas ainda não foram publicadas; não confunda diagramas JSON com simulações testadas.
+
 ## ✅ Boas práticas sugeridas
 
 - Documentar objetivo, entradas, saídas e funcionamento em cada projeto.
