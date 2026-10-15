@@ -45,35 +45,35 @@ Os nomes abaixo seguem **as pastas existentes no repositório**. A classificaç�
 
 | Projeto | Componentes identificados | Abrir |
 | :-- | :-- | :-- |
-| `Projeto-0` | Arduino Uno, LED, resistor | [📁 Código e circuito](Projects/Projeto-0) |
-| `Q-7` | Arduino Uno, LED, resistor | [📁 Código e circuito](Projects/Q-7) |
-| `Projeto-3` | Arduino Uno, LEDs, botões, buzzer | [📁 Código e circuito](Projects/Projeto-3) |
-| `Projeto-4` | Arduino Uno, quatro LEDs, quatro botões e buzzer | [📁 Código e circuito](Projects/Projeto-4) |
+| `Projeto-0` | Arduino Uno, LED, resistor | [📁 Pasta](Projects/Projeto-0) · [🔌 Circuito](Projects/Projeto-0/diagram.json) · [💻 Código](Projects/Projeto-0/src/main.cpp) |
+| `Q-7` | Arduino Uno, LED, resistor | [📁 Pasta](Projects/Q-7) · [🔌 Circuito](Projects/Q-7/diagram.json) · [💻 Código](Projects/Q-7/src/main.cpp) |
+| `Projeto-3` | Arduino Uno, LEDs, botões, buzzer | [📁 Pasta](Projects/Projeto-3) · [🔌 Circuito](Projects/Projeto-3/diagram.json) · [💻 Código](Projects/Projeto-3/src/main.cpp) |
+| `Projeto-4` | Arduino Uno, quatro LEDs, quatro botões e buzzer | [📁 Pasta](Projects/Projeto-4) · [🔌 Circuito](Projects/Projeto-4/diagram.json) · [💻 Código](Projects/Projeto-4/src/main.cpp) |
 
 ### 🎚️ Entradas analógicas e luminosidade
 
 | Projeto | Componentes identificados | Abrir |
 | :-- | :-- | :-- |
-| `Q-4` | Arduino Uno, potenciômetro | [📁 Código e circuito](Projects/Q-4) |
-| `Q-5` | Arduino Uno, fotoresistor | [📁 Código e circuito](Projects/Q-5) |
-| `Pratica-1` | Arduino Uno, potenciômetro, LEDs e resistores | [📁 Código e circuito](Projects/Pratica-1) |
-| `Projeto-1A` | Arduino Uno, potenciômetro, LEDs e resistores | [📁 Código e circuito](Projects/Projeto-1A) |
-| `Projeto-1AB` | Arduino Uno, potenciômetro, LEDs e buzzer | [📁 Código e circuito](Projects/Projeto-1AB) |
+| `Q-4` | Arduino Uno, potenciômetro | [📁 Pasta](Projects/Q-4) · [🔌 Circuito](Projects/Q-4/diagram.json) · [💻 Código](Projects/Q-4/src/main.cpp) |
+| `Q-5` | Arduino Uno, fotoresistor | [📁 Pasta](Projects/Q-5) · [🔌 Circuito](Projects/Q-5/diagram.json) · [💻 Código](Projects/Q-5/src/main.cpp) |
+| `Pratica-1` | Arduino Uno, potenciômetro, LEDs e resistores | [📁 Pasta](Projects/Pratica-1) · [🔌 Circuito](Projects/Pratica-1/diagram.json) · [💻 Código](Projects/Pratica-1/src/main.cpp) |
+| `Projeto-1A` | Arduino Uno, potenciômetro, LEDs e resistores | [📁 Pasta](Projects/Projeto-1A) · [🔌 Circuito](Projects/Projeto-1A/diagram.json) · [💻 Código](Projects/Projeto-1A/src/main.cpp) |
+| `Projeto-1AB` | Arduino Uno, potenciômetro, LEDs e buzzer | [📁 Pasta](Projects/Projeto-1AB) · [🔌 Circuito](Projects/Projeto-1AB/diagram.json) · [💻 Código](Projects/Projeto-1AB/src/main.cpp) |
 
 ### 📏 Ultrassom e automação
 
 | Projeto | Componentes identificados | Abrir |
 | :-- | :-- | :-- |
-| `Projeto-2` | Arduino Uno, HC-SR04, LEDs e buzzer | [📁 Código e circuito](Projects/Projeto-2) |
-| `Projeto-2A` | Arduino Uno, HC-SR04, LEDs e buzzer | [📁 Código e circuito](Projects/Projeto-2A) |
-| `Projeto-6E` | Arduino Uno, servo, HC-SR04, LEDs e buzzer | [📁 Código e circuito](Projects/Projeto-6E) |
-| `Projeto-6F` | Arduino Uno, servo, HC-SR04, LEDs e buzzer | [📁 Código e circuito](Projects/Projeto-6F) |
+| `Projeto-2` | Arduino Uno, HC-SR04, LEDs e buzzer | [📁 Pasta](Projects/Projeto-2) · [🔌 Circuito](Projects/Projeto-2/diagram.json) · [💻 Código](Projects/Projeto-2/src/main.cpp) |
+| `Projeto-2A` | Arduino Uno, HC-SR04, LEDs e buzzer | [📁 Pasta](Projects/Projeto-2A) · [🔌 Circuito](Projects/Projeto-2A/diagram.json) · [💻 Código](Projects/Projeto-2A/src/main.cpp) |
+| `Projeto-6E` | Arduino Uno, servo, HC-SR04, LEDs e buzzer | [📁 Pasta](Projects/Projeto-6E) · [🔌 Circuito](Projects/Projeto-6E/diagram.json) · [💻 Código](Projects/Projeto-6E/src/main.cpp) |
+| `Projeto-6F` | Arduino Uno, servo, HC-SR04, LEDs e buzzer | [📁 Pasta](Projects/Projeto-6F) · [🔌 Circuito](Projects/Projeto-6F/diagram.json) · [💻 Código](Projects/Projeto-6F/src/main.cpp) |
 
 ### ⚙️ Atuadores
 
 | Projeto | Componentes identificados | Abrir |
 | :-- | :-- | :-- |
-| `Projeto-6` | Arduino Uno e servomotor | [📁 Código e circuito](Projects/Projeto-6) |
+| `Projeto-6` | Arduino Uno e servomotor | [📁 Pasta](Projects/Projeto-6) · [🔌 Circuito](Projects/Projeto-6/diagram.json) · [💻 Código](Projects/Projeto-6/src/main.cpp) |
 
 > 🔍 **Exemplo para explorar primeiro:** [Projeto-4](Projects/Projeto-4/diagram.json) mostra o circuito no Wokwi; [código C++](Projects/Projeto-4/src/main.cpp) contém a lógica para LEDs, botões e buzzer; [configuração PlatformIO](Projects/Projeto-4/platformio.ini) seleciona Arduino Uno.
 
