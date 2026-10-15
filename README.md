@@ -79,6 +79,20 @@ Os nomes abaixo seguem **as pastas existentes no repositório**. A classificaç�
 
 ---
 
+## 📖 Guias individuais — 14 projetos documentados
+
+Cada pasta contém um `README.md` com objetivos, componentes identificados no diagrama, recursos do código e um roteiro de estudo. Os guias **não substituem testes de compilação ou simulação**.
+
+| LEDs e botões | Entradas e sensores | Ultrassom e atuadores |
+|:--|:--|:--|
+| [Projeto-0](Projects/Projeto-0/README.md) | [Q-4](Projects/Q-4/README.md) | [Projeto-2](Projects/Projeto-2/README.md) |
+| [Q-7](Projects/Q-7/README.md) | [Q-5](Projects/Q-5/README.md) | [Projeto-2A](Projects/Projeto-2A/README.md) |
+| [Projeto-3](Projects/Projeto-3/README.md) | [Pratica-1](Projects/Pratica-1/README.md) | [Projeto-6](Projects/Projeto-6/README.md) |
+| [Projeto-4](Projects/Projeto-4/README.md) | [Projeto-1A](Projects/Projeto-1A/README.md) | [Projeto-6E](Projects/Projeto-6E/README.md) |
+| — | [Projeto-1AB](Projects/Projeto-1AB/README.md) | [Projeto-6F](Projects/Projeto-6F/README.md) |
+
+---
+
 ## 🔍 Visão geral dos circuitos
 
 Os números abaixo foram extraídos diretamente dos arquivos `diagram.json` presentes no repositório. Eles indicam **componentes declarados** e **conexões desenhadas**, não certificam que a simulação ou o circuito físico tenha sido testado.
