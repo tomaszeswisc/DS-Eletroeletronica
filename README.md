@@ -79,6 +79,31 @@ Os nomes abaixo seguem **as pastas existentes no repositório**. A classificaç�
 
 ---
 
+## 🔍 Visão geral dos circuitos
+
+Os números abaixo foram extraídos diretamente dos arquivos `diagram.json` presentes no repositório. Eles indicam **componentes declarados** e **conexões desenhadas**, não certificam que a simulação ou o circuito físico tenha sido testado.
+
+| Projeto | Componentes | Conexões | Arquivo Wokwi |
+|:--|--:|--:|:--|
+| [Projeto-0](Projects/Projeto-0) | 3 | 2 | [Abrir diagram.json](Projects/Projeto-0/diagram.json) |
+| [Q-7](Projects/Q-7) | 3 | 3 | [Abrir diagram.json](Projects/Q-7/diagram.json) |
+| [Projeto-3](Projects/Projeto-3) | 23 | 34 | [Abrir diagram.json](Projects/Projeto-3/diagram.json) |
+| [Projeto-4](Projects/Projeto-4) | 15 | 23 | [Abrir diagram.json](Projects/Projeto-4/diagram.json) |
+| [Q-4](Projects/Q-4) | 2 | 3 | [Abrir diagram.json](Projects/Q-4/diagram.json) |
+| [Q-5](Projects/Q-5) | 2 | 3 | [Abrir diagram.json](Projects/Q-5/diagram.json) |
+| [Pratica-1](Projects/Pratica-1) | 18 | 27 | [Abrir diagram.json](Projects/Pratica-1/diagram.json) |
+| [Projeto-1A](Projects/Projeto-1A) | 18 | 27 | [Abrir diagram.json](Projects/Projeto-1A/diagram.json) |
+| [Projeto-1AB](Projects/Projeto-1AB) | 20 | 30 | [Abrir diagram.json](Projects/Projeto-1AB/diagram.json) |
+| [Projeto-2](Projects/Projeto-2) | 19 | 30 | [Abrir diagram.json](Projects/Projeto-2/diagram.json) |
+| [Projeto-2A](Projects/Projeto-2A) | 19 | 30 | [Abrir diagram.json](Projects/Projeto-2A/diagram.json) |
+| [Projeto-6E](Projects/Projeto-6E) | 10 | 19 | [Abrir diagram.json](Projects/Projeto-6E/diagram.json) |
+| [Projeto-6F](Projects/Projeto-6F) | 10 | 19 | [Abrir diagram.json](Projects/Projeto-6F/diagram.json) |
+| [Projeto-6](Projects/Projeto-6) | 2 | 3 | [Abrir diagram.json](Projects/Projeto-6/diagram.json) |
+
+> 🖼️ **Capturas de tela reais ainda pendentes:** use o Wokwi no VS Code para abrir cada diagrama e salvar uma captura fiel antes de adicionar imagens ao catálogo.
+
+---
+
 ## 🚀 Como executar
 
 ### Opção A — Visual Studio Code + PlatformIO
